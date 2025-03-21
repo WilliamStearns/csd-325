@@ -7,7 +7,7 @@
 #Diplay a countdown from the number inputted by the user, changing when only one is left.
 def song(bottles):
     for i in range(bottles, 1, -1):
-        print(f"{i} bottles of beer on the wall, {i} bottles of beer.\nTake one down and pass it around, {i-1} bottle(s) of beer on the wall\n")
+        print(f"{i} bottles of beer on the wall, {i} bottles of beer.\nTake one down and pass it around, {i-1} bottle(s) of beer on the wall.\n")
     print("1 bottle of beer on the wall, 1 bottle of beer.\nTake one down and pass it around, 0 bottles of beer on the wall\n")
         
 def main():
