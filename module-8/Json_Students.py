@@ -54,3 +54,5 @@ def main():
     update_file(pupils)
     print("\nThe file has been updated.\n")
 
+if __name__ == '__main__':
+    main()
